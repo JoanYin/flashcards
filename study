@@ -51,6 +51,7 @@ def study(): #FIX THIS FUNCTION
   else:
     print(current_card[1])
     study_input=input("Rate from 1-5.")
+    check_study_stop(study_input)
     print("past rate")
     current_card[2]=study_input
     study()
